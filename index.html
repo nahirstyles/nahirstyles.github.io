@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Descubre el poder del diseño gráfico y la creación de logotipos en Nahir Style's. Impulsamos tu marca con soluciones visuales impactantes y únicas. Además, ofrecemos servicios de desarrollo web y marketing para ayudar a pequeños empresarios y grandes empresas a destacar en el mercado digital. ¡Potencia tu presencia en línea y alcanza el éxito con nosotros!">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/80179a3103.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="RECURSOS/fonts/Gilroy-SemiBold.ttf" rel="stylesheet" />
+    <link rel="stylesheet" href="css/gallery.css" />
+    <link rel="stylesheet" href="css/carrusel.css" />
+    <link rel="shortcut icon" href="RECURSOS/png/logo.png" />
+    <title>Nahir Style's</title>
+  </head>
+  <body>
+    <div class="ful-img" id="fulImgBox">
+      <img src="RECURSOS/JPG/percha.jpg" id="fulImg" />
+      <span onclick="closeImg()"><i class="fa-solid fa-xmark"></i></span>
+    </div>
+    <div class="ful-video" id="fulVideoBox">
+      <video src="RECURSOS/mp4/0523.mp4" loop autoplay id="fulVideo"></video>
+      <span onclick="closeV()"><i class="fa-solid fa-xmark"></i></span>
+    </div>
+    <div id="particles-js"></div>
+    <header class="header orange">
+      <div class="logo">
+        <img src="RECURSOS/png/logo.png" alt="servicio de diseño grafico" />
+        <samp class="name">Nahir Style's</samp>
+      </div>
+      <nav class="nav">
+        <div class="nav_container">
+          <label for="menu" class="nav_label">
+            <i
+              style="
+                color: var(--white);
+                font-size: 3rem;
+                position: absolute;
+                right: 5%;
+                top: calc(50% - 1.5rem);
+              "
+              class="fas fa-bars"
+            ></i>
+          </label>
+          <input type="checkbox" id="menu" class="nav_imput" />
+
+          <div class="nav_menu">
+            <a class="nav_item" href="#"
+              ><i class="fa-solid fa-house"></i>Inicio</a
+            >
+            <a class="nav_item" href="#about"
+              ><i class="fa-solid fa-user"></i>Conosenos</a
+            >
+            <a class="nav_item" href="#services"
+              ><i class="fa-solid fa-star"></i>Servicios</a
+            >
+            <a class="nav_item" href="#contact"
+              ><i class="fa-solid fa-envelope"></i>Contacto</a
+            >
+            <a  target="_blank"  href="https://api.whatsapp.com/send?phone=573227120107&text=%C2%A1Hola%20quiero%20llevar%20mi%20empresa%20al%20siguiente%20nivel!%20%F0%9F%9A%80deseo%20tener%20m%C3%A1s%20informacion%20sobre%20los%20servicios%20Nahir%20Style%27s..." class="whatsapp">
+              <img src="RECURSOS/png/whatsapp.png" alt="whatsapp link" />
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="container">
+        <section class="inicio" id="inicio">
+          <div class="text">
+            <h1>Servicio de Diseño Gráfico y Marketing Digital</h1>
+            <p>
+              ¡Bienvenidos a Nahir Style's! Aquí encontrarás todo lo que
+              necesitas para llevar tu negocio al siguiente nivel.<br />
+              Nahir Style's estamos comprometidos en hacer que la tecnología sea
+              accesible y comprencible para todos.<br />
+              Unete a nuestra comunidad y descubre como la tecnología Puede
+              ayudarte.
+            </p>
+          </div>
+          <img src="RECURSOS/JPG/inicio.jpg" alt="" />
+        </section>
+        <section class="services" id="services">
+          <h2 class="title">NUESTROS SERVICIOS</h2>
+          <div class="services-container">
+            <article class="service">
+              <h3 class="title">Diseño Gráfico</h3>
+              <img class="icon" src="RECURSOS/SVG/diseñog.svg" alt="" />
+              <h3 class="title2">Deslumbra con diseño gráfico de calidad</h3>
+              <p class="text">
+                Potencia tu marca con el diseño gráfico de Nahir Style's. Ideas
+                impactantes y únicas convertidas en visuales cautivadores.
+                Creatividad, calidad y atención personalizada para elevar tu
+                imagen, Únete y destaca con nosotros.<br /><br />
+                Diseño Gráfico En <strong>Nahir Styles</strong>,Potencia tu
+                marca con diseños de <strong>alta calidad</strong> y servicios
+                de diseño gráfico para todo tipo de necesidades. Nuestro equipo
+                creativo está listo para crear diseños
+                <strong>impactantes</strong> que destacarán tu imagen visual.
+                Ofrecemos una amplia gama de servicios que van desde la creación
+                de logotipos, diseño de tarjetas de presentación, banners
+                publicitarios, hasta la elaboración de material gráfico para
+                redes sociales y mucho más. Lo mejor de todo es que nuestros
+                precios son <strong>altamente competitivos</strong>. Nuestros
+                servicios de diseño de alta calidad comienzan desde tan solo
+                <strong>49.000 COP</strong>. Queremos asegurarnos de que el
+                diseño gráfico sea accesible para todos, ya sea que tengas una
+                pequeña empresa, una startup o una gran corporación. ¿Estás
+                listo para llevar tu imagen visual al siguiente nivel? Haz clic
+                en '<strong>Reservar</strong>' para concretar tu pedido y
+                obtener más información. Nuestro equipo estará encantado de
+                ayudarte a impulsar tu marca con diseños personalizados que
+                captarán la atención de tu audiencia. ¡No pierdas esta
+                oportunidad!
+              </p>
+              <div class="buttons">
+                <button onclick="ocultar()" class="verMenos">
+                  <i class="fa-solid fa-x"></i>Ver Menos
+                </button>
+                <button class="reservar">
+                  <a  target="_blank"  href="https://api.whatsapp.com/send?phone=573227120107&text=%C2%A1Hola%20quiero%20llevar%20mi%20empresa%20al%20siguiente%20nivel!%20%F0%9F%9A%80deseo%20tener%20m%C3%A1s%20informacion%20sobre%20los%20servicios%20Nahir%20Style%27s..."><i class="fa-brands fa-whatsapp"></i>Reservar</a>
+                </button>
+              </div>
+              <button onclick="mostrar1()" class="masInfo">
+                Más información
+              </button>
+            </article>
+            <article class="service">
+              <h3 class="title">Diseño Web</h3>
+              <img class="icon" src="RECURSOS/SVG/diseñow.svg" alt="" />
+              <h3 class="title2">
+                Impulsa tu presencia en línea con diseños web profesionales
+              </h3>
+              <p class="text">
+                Impulsa tu presencia online con Nahir Style's. Sitios web
+                atractivos y funcionales que cautivan a tu audiencia.
+                Experiencia de usuario excepcional y diseño responsivo. Destaca
+                en el mundo digital. Diseño Web. Nahir Style's.
+                <br /><br />
+                Destaca en el mundo digital con nuestro servicio de
+                <strong>diseño web de primera categoría</strong>. En nuestro
+                enfoque integral, creamos
+                <strong>diseños impresionantes</strong>, desarrollamos
+                <strong>páginas web estáticas</strong> con una apariencia
+                visualmente cautivadora y realizamos una
+                <strong>maquetación frontend impecable</strong> para brindarte
+                una experiencia de usuario excepcional. Además, no podemos
+                olvidar nuestras
+                <strong>landing pages altamente efectivas</strong> que
+                convierten visitantes en clientes.<br /><br />
+                Lo mejor de todo es nuestra combinación perfecta de
+                <strong>calidad y velocidad</strong>. Nuestro equipo de expertos
+                en diseño web se compromete a entregar resultados rápidos sin
+                comprometer la excelencia. Y, lo más importante, a
+                <strong>precios asequibles</strong>. Queremos ayudarte a lograr
+                el éxito en línea sin quebrar tu presupuesto.<br /><br />
+                Al elegir nuestro servicio, obtendrás
+                <strong>diseños profesionales</strong> que reflejen la identidad
+                única de tu negocio y te ayuden a destacar en el mercado
+                digital. Estamos listos para convertir tu visión en realidad y
+                hacer que tu presencia en línea sea impecable y convincente.<br /><br />
+                No esperes más para impulsar tu negocio en línea. ¡<strong
+                  >Contáctanos ahora</strong
+                >
+                y comienza a cautivar a tus clientes con un diseño web
+                excepcionalmente impactante y profesional!
+              </p>
+              <div class="buttons">
+                <button onclick="ocultar()" class="verMenos">
+                  <i class="fa-solid fa-x"></i>Ver Menos
+                </button>
+                <button class="reservar">
+                  <a  target="_blank"  href="https://api.whatsapp.com/send?phone=573227120107&text=%C2%A1Hola%20quiero%20llevar%20mi%20empresa%20al%20siguiente%20nivel!%20%F0%9F%9A%80deseo%20tener%20m%C3%A1s%20informacion%20sobre%20los%20servicios%20Nahir%20Style%27s..."><i class="fa-brands fa-whatsapp"></i>Reservar</a>
+                </button>
+              </div>
+              <button onclick="mostrar2()" class="masInfo">
+                Más información
+              </button>
+            </article>
+            <article class="service">
+              <h3 class="title">Community Manager</h3>
+              <img class="icon" src="RECURSOS/SVG/community.svg" alt="" />
+              <h3 class="title2">
+                Potencia tus redes con Community Manager profesional
+              </h3>
+              <p class="text">
+                Convierte seguidores en clientes con Nahir Style's Community
+                Manager. Estrategias de redes sociales personalizadas, contenido
+                relevante y crecimiento orgánico. Construimos y gestionamos tu
+                comunidad online. Maximiza el alcanse y las ventas.
+                <br /><br />
+                Conviértete en una influencia en las redes sociales con nuestro
+                servicio de <strong>Community Manager</strong> de alto
+                rendimiento. Nuestro equipo de expertos en
+                <strong>gestión de comunidades</strong> está listo para
+                potenciar tu presencia en las redes sociales, aumentar tu base
+                de seguidores y mejorar el compromiso de tu audiencia.<br /><br />
+                Nos encargaremos de <strong>gestionar y optimizar</strong> tus
+                perfiles en redes sociales, crear estrategias de contenido
+                efectivas, interactuar con tu audiencia de manera auténtica y
+                monitorear el rendimiento de tus publicaciones. Ya sea que
+                necesites aumentar el reconocimiento de tu marca, generar leads
+                o fomentar la participación de los usuarios, nuestro enfoque
+                estratégico te ayudará a lograr resultados tangibles.<br /><br />
+                Lo mejor de todo es que ofrecemos un servicio completo a
+                <strong>precios competitivos</strong>. Nuestros paquetes están
+                diseñados para adaptarse a tus necesidades y presupuesto,
+                brindándote un retorno de inversión notable. Además, trabajamos
+                de manera rápida y eficiente, para que puedas comenzar a ver los
+                beneficios de nuestra gestión de comunidades en poco tiempo.<br /><br />
+                ¡Aprovecha la oportunidad de destacar en las redes sociales y
+                obtener resultados sólidos! <strong>Contáctanos ahora</strong> y
+                descubre cómo nuestro servicio de Community Manager puede llevar
+                tu presencia en línea al siguiente nivel.
+              </p>
+
+              <div class="buttons">
+                <button onclick="ocultar()" class="verMenos">
+                  <i class="fa-solid fa-x"></i>Ver Menos
+                </button>
+                <button class="reservar">
+                  <a   target="_blank"  href="https://api.whatsapp.com/send?phone=573227120107&text=%C2%A1Hola%20quiero%20llevar%20mi%20empresa%20al%20siguiente%20nivel!%20%F0%9F%9A%80deseo%20tener%20m%C3%A1s%20informacion%20sobre%20los%20servicios%20Nahir%20Style%27s..."><i class="fa-brands fa-whatsapp"></i>Reservar</a>
+                </button>
+              </div>
+              <button onclick="mostrar3()" class="masInfo">
+                Más información
+              </button>
+            </article>
+          </div>
+        </section>
+
+        <section class="work">
+          <h2>Galería de Diseños</h2>
+
+          <div id="recomendados" class="enlases-recomendados">
+            <div class="contenedor-titulo-controles">
+              <div class="indicadores"></div>
+            </div>
+            <div class="principal">
+              <button
+                type="button"
+                id="flecha-izquierda"
+                class="flecha-izquierda"
+              >
+                <i class="fa-solid fa-angle-left"></i>
+              </button>
+              <div id="contenedor-carrusel" class="contenedor-carrusel">
+                <div id="carrusel" class="carrusel">
+                  <div id="pelicula" class="pelicula">
+                    <img
+                      onclick="openFulImg(this.src)"
+                      src="RECURSOS/JPG/LinFer.jpg"
+                    />
+                  </div>
+                  <div id="pelicula" class="pelicula">
+                    <img
+                      onclick="openFulImg(this.src)"
+                      src="RECURSOS/JPG/percha.jpg"
+                    />
+                  </div>
+                  <div id="pelicula" class="pelicula">
+                    <img
+                      onclick="openFulImg(this.src)"
+                      src="RECURSOS/JPG/cards.jpg"
+                    />
+                  </div>
+                  <div id="pelicula" class="pelicula">
+                    <img
+                      onclick="openFulImg(this.src)"
+                      src="RECURSOS/JPG/foto-2..jpg"
+                    />
+                  </div>
+                  <div id="pelicula" class="pelicula">
+                    <img
+                      onclick="openFulImg(this.src)"
+                      src="RECURSOS/JPG/foto3_06.jpg"
+                    />
+                  </div>
+                  <div id="pelicula" class="pelicula">
+                    <img
+                      onclick="openFulImg(this.src)"
+                      src="RECURSOS/JPG/shoes.jpg"
+                    />
+                  </div>
+                  <div id="pelicula" class="pelicula">
+                    <img
+                      onclick="openFulImg(this.src)"
+                      src="RECURSOS/JPG/EObolsa.jpg"
+                    />
+                  </div>
+                  <div id="pelicula" class="pelicula">
+                    <img
+                      onclick="openFulImg(this.src)"
+                      src="RECURSOS/JPG/EObata.jpg"
+                    />
+                  </div>
+                </div>
+              </div>
+              <button type="button" id="flecha-derecha" class="flecha-derecha">
+                <i class="fa-solid fa-angle-right"></i>
+              </button>
+            </div>
+          </div>
+          <h2>Diseños Web</h2>
+          <div class="contenedor-dw">
+            <div class="galery">
+              <div id="pelicula" class="pelicula">
+                <video
+                  onclick="openFulVideo(this.src)"
+                  src="RECURSOS/mp4/web1.mp4"
+                  loop
+                  autoplay
+                ></video>
+              </div>
+              <div id="pelicula" class="pelicula">
+                <video
+                  onclick="openFulVideo(this.src)"
+                  src="RECURSOS/mp4/web2.mp4"
+                  loop
+                  autoplay
+                ></video>
+              </div>
+              <div id="pelicula" class="pelicula">
+                <video
+                  onclick="openFulVideo(this.src)"
+                  src="RECURSOS/mp4/web3.mp4"
+                  loop
+                  autoplay
+                ></video>
+              </div>
+              
+            </div>
+          </div>
+        </section>
+        <section class="about" id="about">
+          <article class="container">
+            <span>¿Quienes somos?</span>
+            <p>
+              Nahir Style's es una empresa versátil que no solo se dedica al diseño gráfico y la creación de logotipos, sino que también ofrece servicios de creación de sitios web y marketing. Estamos comprometidos en brindar soluciones integrales para impulsar el éxito de pequeños empresarios y grandes empresas por igual.
+
+Nuestro equipo de expertos en diseño y desarrollo web está capacitado para crear sitios web atractivos, funcionales y totalmente personalizados. Ya sea que necesites un sitio web informativo, una tienda en línea o una plataforma interactiva, nos aseguraremos de que tu presencia en línea sea impactante y refleje la identidad de tu marca.
+
+Además, entendemos la importancia del marketing en el crecimiento de un negocio. Por eso, ofrecemos estrategias de marketing digital efectivas para ayudarte a llegar a tu público objetivo, aumentar la visibilidad de tu marca y generar conversiones. Desde el diseño de campañas publicitarias hasta la gestión de redes sociales, estamos aquí para ayudarte a alcanzar tus metas de marketing.
+
+En Nahir Style's, nos enorgullece brindar nuestros servicios a todos los emprendedores y empresarios, sin importar el tamaño de su negocio. Ya sea que estés comenzando en el mundo empresarial o que tengas una empresa establecida, estamos aquí para ofrecerte el apoyo que necesitas para destacar en el mercado.
+
+Nuestra pasión es ayudar a nuestros clientes a alcanzar el éxito y crecer en sus respectivas industrias. Trabajamos de la mano contigo, comprendiendo tus metas y objetivos, para brindarte soluciones personalizadas y efectivas que impulsen tu negocio hacia adelante.
+
+En resumen, Nahir Style's es una empresa integral que ofrece servicios de diseño gráfico, creación de logotipos, desarrollo web y marketing, con el propósito de ayudar tanto a pequeños empresarios como a grandes empresas a alcanzar su máximo potencial en el mercado actual.
+            </p>
+          </article>
+          
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="informacion">
+        <p>
+          ¡Eleva tu marca con Nahir Style's! Somos una agencia de diseño gráfico
+          y creación de sitios web que ofrece soluciones creativas y
+          estratégicas para fortalecer tu presencia en línea. Contáctanos
+          hoy mismo y descubre cómo podemos ayudarte a alcanzar tus objetivos
+          comerciales. 
+        </p>
+        <span style="margin-top: 20px"
+          >No pierdas la oportunidad de destacar en el mercado digital.
+          ¡Trabajemos juntos para crear una imagen de marca impactante y
+          exitosa! 💥🚀 </span
+        >
+      </div>
+      <div class="contacto" id="contact">
+        <ul>
+          <li>
+            <a
+              href="https://www.facebook.com/profile.php?id=100088419232384
+            "
+              target="_blank"
+              ><i class="fab fa-facebook-f"></i
+            >facebook</a>
+          </li>
+
+          <li>
+            <a
+              href="https://www.instagram.com/nahir.styles/
+              "
+              target="_blank"
+              ><i class="fa-brands fa-instagram"></i>Instagram</a>
+          </li>
+
+          <li>
+            <a
+              href="mailto:nahir.style.services@gmail.com
+                "
+              target="_blank"
+              ><i class="fa-sharp fa-solid fa-envelope"></i>Gmail</a>
+          </li>
+        </ul>
+      </div>
+      <div style="background-color: var(--black);width: 100%; padding-bottom: 1rem ; text-align: center;" >
+        Copyright © 2023 Nahir Style's. Todos los derechos
+          reservados
+      </div>
+    </footer>
+    <footer class="footer"></footer>
+    <script src="js/carrusel.js"></script>
+    <script src="js/services.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/particulas.js"></script>
+    <script src="js/galery.js"></script>
+  </body>
+</html>
